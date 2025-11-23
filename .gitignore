@@ -1,0 +1,17 @@
+# Terraform local files
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Python
+__pycache__
+*.pyc
+venv/
+.env
+
+# IDE & OS
+.vscode
+.idea
+.DS_Store
